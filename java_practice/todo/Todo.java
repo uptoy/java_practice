@@ -1,3 +1,5 @@
+package java_practice.todo;
+
 public class Todo {
     private String todo;
     private int importance;

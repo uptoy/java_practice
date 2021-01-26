@@ -1,4 +1,4 @@
-package java_practice;
+package java_practice.practice;
 
 public class Pyramid {
     public static void main(String[] args) {
