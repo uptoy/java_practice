@@ -8,7 +8,4 @@ import java.lang.annotation.Target;
 @Target(ElementType.FIELD)
 @Retention(RetentionPolicy.RUNTIME)
 public @interface Resource {
-    Class value();
-
 }
-// classcぁっSonyの定義情報をもらう

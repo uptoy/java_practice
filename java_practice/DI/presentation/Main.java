@@ -9,6 +9,11 @@ public class Main {
         Container con = new Container();
         // ItemCatalog catalog = ItemCatalog.getInstance();
         ItemCatalog catalog = (ItemCatalog) con.getInstance(ItemCatalogImpl.class);
+
+        List<Item> items = catalog.getAll();
+        for (Item item : items) {
+            System.out.println(item.getName());
+        }
     }
 
 }
